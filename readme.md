@@ -1,5 +1,5 @@
 # js-todo-list
-## js-todo-list merupakan aplikasi to-do list sederhana berbasis JavaScript yang memungkinkan pengguna mencatat, menyimpan, dan menghapus daftar tugas mereka langsung melalui browser. Aplikasi ini dirancang sebagai latihan dasar pemrograman web menggunakan JavaScript, HTML, dan CSS.
+js-todo-list merupakan aplikasi to-do list sederhana berbasis JavaScript yang memungkinkan pengguna mencatat, menyimpan, dan menghapus daftar tugas mereka langsung melalui browser. Aplikasi ini dirancang sebagai latihan dasar pemrograman web menggunakan JavaScript, HTML, dan CSS.
 
 ## 📌 Deskripsi
 js-todo-list adalah aplikasi berbasis JavaScript yang menyediakan fitur:
@@ -69,6 +69,8 @@ Pastikan untuk mengikuti pedoman kontribusi yang telah ditetapkan.
 
 ## 📬 Kontak
 Nama: Bagas Alfanto
+
 Email: bagasalfanto123@gmail.com
+
 LinkedIn: linkedin.com/in/bagas-alfanto
 
