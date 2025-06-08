@@ -1,7 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -9,6 +16,7 @@
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
+    overflow: hidden;
 }
 
 .todo {
@@ -99,4 +107,45 @@ ul li span {
 
 ul li span:hover{
     background: #edeef0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .todo {
+        margin: 50px auto 20px;
+        padding: 30px 20px 50px;
+    }
+    
+    .row {
+        padding-left: 15px;
+    }
+    
+    button {
+        padding: 14px 20px;
+    }
+    
+    ul li {
+        padding: 10px 8px 10px 40px;
+    }
+    
+    ul li::before {
+        height: 24px;
+        width: 24px;
+        top: 6px;
+        left: 6px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .todo {
+        padding: 25px 15px 40px;
+    }
+    
+    button {
+        padding: 12px 15px;
+    }
+    
+    input {
+        padding: 8px;
+    }
 }
